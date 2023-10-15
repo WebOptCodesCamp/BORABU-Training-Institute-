@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borabu Technical Institute Enroll</title>
+    <link rel="stylesheet" href="style.css" title="" type="" />
+        <link rel="stylesheet" href="login.css" title="" type="" />
+  </head>
+  <body>
+    <div id="main">
+              <header class="header">
+       <img class="logo" src="images/Borabu-Logo.png" alt="" />  
+
+       
+        </header>
+        <div class="place">
+          <h1 class="tih">Enter your first name</h1>
+                         <input type="text" name="fname1" id="fname1" value="" placeholder="enter your first name" class="allinput"/>
+                                   <h1 class="tih">Enter your email address</h1>
+      <input type="email" name="fname" id="fname2" value="" placeholder="sample@gmail.com" class="allinput"/>                              <h1 class="tih">Enter your secondary school name</h1>
+         <input type="text" name="fname" id="fname3" value="" placeholder="enter your secondary school" class="allinput"/>                         <h1 class="tih">Enter your kcse index number</h1>  
+          <input type="number" name="findex" id="index" value="" placeholder="enter your kcse index number"class="allinput"/>                
+                             <h1 class="tih">Enter your kcse grade</h1>  
+                  <select name="" id="grade" class="tih" >
+
+          </select>            
+                            <h1 class="tih">Choose your course of study</h1>
+          <select name="" id="slt" oninput="confirm()" placeholder="">
+
+          </select>
+                   <p id="warn"></p>        <div class="butkeep">
+                                    <button type="button"  class="sub"  id="go" onclick="sendEmail()">submit</button>      
+                   </div>  
+
+                         
+        </div>
+
+    </div>
+    <script src="query.js" type="text/javascript" charset="utf-8"></script>
+    <script src="email.js" type="text/javascript" charset="utf-8"></script>
+   <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script type="text/javascript" charset="utf-8">
+  
+    
+</script>
+<script src="smtp.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("6mLMShbVaqL3wr8V0");
+   })();
+</script>
+<script src="send.js" type="text/javascript" charset="utf-8"></script>
+    <script src="login.js" type="text/javascript" charset="utf-8"></script>
+    <script src="sendmail.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to webopt webpage</title>
+    <link rel="stylesheet" href="start.css" title="" type="" />
+  </head>
+  <body>
+    <div class="main">
+
+ 
+  <div class="enclose" id="start">
+          <header class="head">
+        <h1 class="h">WebOptCamp.com</h1>
+        <img class="profile" src="images/WebOpt.png" alt="" />
+      </header>
+      <hr style="color:white" />
+    <img class="thumb" src="images/code.png" alt="" />
+    <div class="layer">
+ <div class="login" id="login">
+   <h4 class="title">Please Login First</h4>
+   <input type="text" name="user" id="user" value="" placeholder="type your username here" />
+   <input type="password" name="password" id="password" value="" placeholder="type your password here" />
+   <div class="put">
+     <button class="log" type="submit" id="log">Login Now</button>
+   </div>
+ </div>
+ <div class="data" id="data" ondrag="getDrag()">
+   <h4>View Webopt projects</h4>
+   <div class="item" id="item" onclick="getSample()">
+ <img class="b" src="images/borabu.png" alt="" />
+ <div >
+   <h3 class="h3">Borabu Training Institute</h3>
+   <p class="p">sample project for borabu technical college website designed and fully programed by webopt</p>
+ </div>
+   </div>
+      <div class="item" id="item2">
+ <img class="n" src="images/excel.png" alt="" />
+ <div >
+   <h3 class="h3">Making an excel clone</h3>
+   <p class="p">sample project for Making an excel clone website designed and fully programed by webopt</p>
+ </div>
+   </div>
+      <h4 class="h3m">Send your message through Email</h4>
+      <div class="form">
+    <input type="email" name="email" id="email1" value="" placeholder="enter your valid email address"/>
+        <textarea name="txt" id=txt rows="6" cols="40" placeholder="enter your message here" onclick="makeMove()"></textarea>
+
+      </div>
+ <div class="test">
+  <button type="submit" onclick="sendMail()" class="buttn">send mail</button>
+ </div>
+   
+ </div>
+    </div>
+  </div>
+    </div>
+        <script src="email.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+   (function(){
+      emailjs.init("6mLMShbVaqL3wr8V0");
+   })();
+</script>
+    <script src="start.js" type="text/javascript" charset="utf-8"></script>
+
+  </body>
+</html>

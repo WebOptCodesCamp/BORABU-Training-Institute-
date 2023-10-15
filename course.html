@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to course items</title>
+    <link rel="stylesheet" href="start.css" title="" type="" />
+      <link rel="stylesheet" href="swiper.css" title="" type="" />
+  </head>
+
+  <script src="swiper.js" type="text/javascript" charset="utf-8"></script>
+  <body>
+    <div class="main">
+      <div id="menus">
+          <div class="aside">
+                 <img id="menu" src="images/bar.png" alt="" onclick="getClose()"/>
+          </div>
+          <ul>
+            <li class="">Any query to ask webopt ?</li>
+                        <li class="">Customize app settings </li>
+          </ul>
+      </div>
+      <header class="heading">
+        <img id="menu" src="images/bar.png" alt="" onclick="getOpen()"/>
+      </header>
+      <div class="wrap">
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img class="fill" src="images/build.png" alt="" /></div>
+    <div class="swiper-slide"><img class="fill" src="images/build.png" alt="" /></div>
+    <div class="swiper-slide"><img class="fill" src="images/build.png" alt="" /></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+
+
+  
+</div>
+        <h3 class="sample">Sample projects </h3>
+              <div class="product">
+        <img class="icon" src="images/titok.png" alt="" />
+        <div class="details">
+          <h3 class="name">Tiktok project fully cloned</h3>
+          <p>a fully programmed tiktok clone by webopt </p>
+          <span>price : ksh 900</span>
+        </div>
+      </div>  
+      <div class="product">
+        <img class="icon" src="images/excel.png" alt="" />
+        <div class="details">
+          <h3 class="name">Excel project fully cloned</h3>
+          <p>a fully programmed excel clone by webopt </p>
+          <span>price : ksh 900</span>
+        </div>
+      </div>  
+            <div class="product">
+        <img class="icon" src="images/netflix.png" alt="" />
+        <div class="details">
+          <h3 class="name">Netflix project fully cloned</h3>
+          <p>a fully programmed netflix clone by webopt </p>
+          <span>price : ksh 900</span>
+        </div>
+      </div>  
+            <div class="product">
+        <img class="icon" src="images/tube.png" alt="" />
+        <div class="details">
+          <h3 class="name">YouTube project fully cloned</h3>
+          <p>a fully programmed youtube clone by webopt </p>
+          <span>price : ksh 900</span>
+        </div>
+      </div>  
+      </div>
+    </div>
+
+    <script >
+            const swiper = new Swiper('.swiper', {
+  
+autoplay{
+  delay:3000,
+  disableOnInteraction: false,
+},
+  
+  loop: true,
+
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+    <script src="swiper.js" type="text/javascript" charset="utf-8"></script>
+    </script>
+    <script src="start.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
